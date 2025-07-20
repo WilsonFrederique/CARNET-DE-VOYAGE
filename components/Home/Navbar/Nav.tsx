@@ -32,6 +32,7 @@ const Nav = ({openNav}:Props) => {
                     <h1 className="text-lg sm:text-xl md:text-2xl text-white uppercase font-bold tracking-tight">
                     Wils
                     </h1>
+                    <p></p>
                 </div>
 
                 {/* NavLinks - Meilleure gestion des breakpoints */}
