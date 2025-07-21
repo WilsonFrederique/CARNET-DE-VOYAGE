@@ -35,7 +35,7 @@ export default function RootLayout({
       <body
         className={`${font.className} antialiased`}
       >
-      <ResponsiveNav />
+        <ResponsiveNav />
         {children}
       </body>
     </html>

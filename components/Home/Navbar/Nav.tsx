@@ -53,15 +53,17 @@ const Nav = ({openNav}:Props) => {
 
                 {/* Buttons - Meilleure hiérarchie visuelle */}
                 <div className="flex items-center space-x-3 sm:space-x-4">
-                    <button className="px-4 py-1.5 sm:px-6 sm:py-2 md:px-8 md:py-2.5 text-sm sm:text-base font-medium text-black bg-white hover:bg-gray-100 active:bg-gray-200 transition-all duration-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-300">
-                    Book Now
+                    <button className="px-4 py-1.5 sm:px-6 sm:py-2 md:px-8 md:py-2.5 text-sm sm:text-base font-medium text-black bg-white 
+                    hover:bg-gray-100 active:bg-gray-200 transition-all duration-200 rounded-lg focus:outline-none focus:ring-2 
+                    focus:ring-offset-2 focus:ring-yellow-300 cursor-pointer">
+                    Je réserve !
                     </button>
                     
                     {/* Menu mobile - Meilleure accessibilité */}
                     <button 
                     onClick={openNav} 
                     aria-label="Menu" 
-                    className="lg:hidden p-1 rounded-md text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white"
+                    className="cursor-pointer lg:hidden p-1 rounded-md text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white"
                     >
                     <HiBars3BottomRight className='w-6 h-6 sm:w-8 sm:h-8' />
                     </button>
