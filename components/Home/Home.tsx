@@ -3,6 +3,7 @@ import Hero from './Hero/Hero'
 import Destination from './Destination/Destination'
 import Hotel from './Hotel/Hotel'
 import WhyShoose from './WhyChoose/WhyChoose'
+import Reviews from './Reviews/Reviews'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Destination />
         <Hotel />
         <WhyShoose />
+        <Reviews />
     </div>
   )
 }
