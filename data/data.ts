@@ -53,8 +53,9 @@ export const voitureData = [
 export const mangaData = [
     {
         id: 1,
-        image: "/images/m1.jpg",  // J'ai corrigé "imagges" en "images"
+        image: "/images/m1.jpg",
         name: "One Piece",
+        location: "Shonen Jump",
         rating: 4.6,
         reviews: "1,345",
         price: "72",
@@ -63,6 +64,7 @@ export const mangaData = [
         id: 2,
         image: "/images/m2.jpg",
         name: "Naruto",
+        location: "Shonen Jump",
         rating: 4.5,
         reviews: "1,210",
         price: "65",
@@ -71,6 +73,7 @@ export const mangaData = [
         id: 3,
         image: "/images/m3.jpg",
         name: "Attack on Titan",
+        location: "Bessatsu Shonen Magazine",
         rating: 4.8,
         reviews: "980",
         price: "58",
@@ -79,6 +82,7 @@ export const mangaData = [
         id: 4,
         image: "/images/m4.jpg",
         name: "Demon Slayer",
+        location: "Shonen Jump",
         rating: 4.7,
         reviews: "1,150",
         price: "63",
@@ -87,9 +91,37 @@ export const mangaData = [
         id: 5,
         image: "/images/m5.jpg",
         name: "My Hero Academia",
+        location: "Shonen Jump",
         rating: 4.4,
         reviews: "890",
         price: "55",
+    },
+    {
+        id: 6,
+        image: "/images/m1.jpg",
+        name: "One Piece",
+        location: "Shonen Jump",
+        rating: 4.6,
+        reviews: "1,345",
+        price: "72",
+    },
+    {
+        id: 7,
+        image: "/images/m2.jpg",
+        name: "Naruto",
+        location: "Shonen Jump",
+        rating: 4.5,
+        reviews: "1,210",
+        price: "65",
+    },
+    {
+        id: 8,
+        image: "/images/m3.jpg",
+        name: "Attack on Titan",
+        location: "Bessatsu Shonen Magazine",
+        rating: 4.8,
+        reviews: "980",
+        price: "58",
     }
 ];
 
