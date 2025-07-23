@@ -35,6 +35,7 @@ const HotelCard = ({hotel}:Props) => {
                 width={600} 
                 height={400} 
                 className='h-full w-full object-cover transition-transform duration-500 group-hover:scale-105' 
+                unoptimized={true}
             />
         </div>
         
